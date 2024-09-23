@@ -1,14 +1,17 @@
 # Workboard
 Project Overview: A full-stack task management application where users can create and manage multiple Work Boards (Kanban boards). Users can create tasks, assign them to specific users, and move tasks across different statuses (ToDo, In Progress, Completed) using a drag-and-drop interface. This project demonstrates the integration of a Django backend with a React.js frontend, offering full CRUD capabilities for task and board management.
 
-Features:
+# Features:
 Create Work Boards: Users can create multiple task boards to manage different projects.
 Task Creation and Assignment: Each board supports multiple tasks that can be assigned to specific users.
 Task Status Management: Tasks can be moved between statuses (ToDo, In Progress, Completed) via drag-and-drop.
-Backend API: The backend (built with Django and Django REST Framework) handles user authentication and all CRUD operations for boards and tasks.
-Frontend Interface: The frontend (built with React.js) offers a user-friendly UI with real-time drag-and-drop functionality.
-Routing: React Router is used for navigation between pages.
-Technologies Used:
+# Backend API: 
+The backend (built with Django and Django REST Framework) handles user authentication and all CRUD operations for boards and tasks.
+# Frontend Interface: 
+The frontend (built with React.js) offers a user-friendly UI with real-time drag-and-drop functionality.
+# Routing: 
+React Router is used for navigation between pages.
+# Technologies Used:
 Frontend:
 React.js: For the frontend UI and component-based architecture.
 Axios: For making HTTP requests to the Django backend.
@@ -18,8 +21,8 @@ Backend:
 Django: For the backend, handling the API and database models.
 Django REST Framework: To create the API endpoints for boards and tasks.
 SQLite (default): Used as the database, can be replaced by PostgreSQL or any other preferred database.
-How to Run the Project:
-Backend Setup (Django):
+# How to Run the Project:
+# Backend Setup (Django):
 Clone the repository:
 
 bash
@@ -72,7 +75,7 @@ Start the React development server:
 bash
 Copy code
 npm start
-API Endpoints:
+# API Endpoints:
 Work Boards API:
 
 GET /api/workboards/: List all work boards.
@@ -80,7 +83,7 @@ POST /api/workboards/: Create a new work board.
 GET /api/workboards/:id/: Retrieve a specific work board.
 PUT /api/workboards/:id/: Update a work board.
 DELETE /api/workboards/:id/: Delete a work board.
-Tasks API:
+# Tasks API:
 
 GET /api/tasks/: List all tasks.
 POST /api/tasks/: Create a new task.
@@ -105,11 +108,11 @@ task-management-app/
 │
 ├── requirements.txt           # Python dependencies for the backend
 └── README.md                  # Project documentation (this file)
-Future Enhancements:
+# Future Enhancements:
 Real-time Collaboration: Implement WebSocket functionality for real-time task updates.
 User Roles and Permissions: Introduce roles like admin, editor, and viewer for boards.
 Notifications: Add email or in-app notifications when tasks are assigned or updated.
-Contributing:
+# Contributing:
 Contributions are welcome! Feel free to fork this repository and submit a pull request.
 
 
