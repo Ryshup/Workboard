@@ -99,12 +99,18 @@ bash
 Copy code
 
 task-management-app/
+
 │
+
 ├── taskmanager/               # Django project folder
+
 │   ├── manage.py              # Django management script
+
 │   └── taskmanager/           # Django settings folder
+
 │
 ├── workboard-client/          # React frontend folder
+
 │   ├── src/
 │   │   ├── components/        # React components (WorkBoardsPage, CreateWorkBoard, WorkBoardDetailPage)
 │   │   └── App.js             # Main React app entry point
