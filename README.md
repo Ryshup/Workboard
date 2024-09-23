@@ -86,12 +86,18 @@ DELETE /api/workboards/:id/: Delete a work board.
 # Tasks API:
 
 GET /api/tasks/: List all tasks.
+
 POST /api/tasks/: Create a new task.
-PUT /api/tasks/:id/: Update a task’s status or details.
-DELETE /api/tasks/:id/: Delete a task.
+
+PUT /api/tasks/:id/: 
+Update a task’s status or details.
+DELETE /api/tasks/:id/: 
+Delete a task.
+
 Folder Structure:
 bash
 Copy code
+
 task-management-app/
 │
 ├── taskmanager/               # Django project folder
