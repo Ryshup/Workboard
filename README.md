@@ -109,17 +109,28 @@ task-management-app/
 │   └── taskmanager/           # Django settings folder
 
 │
+
 ├── workboard-client/          # React frontend folder
 
+
 │   ├── src/
+
 │   │   ├── components/        # React components (WorkBoardsPage, CreateWorkBoard, WorkBoardDetailPage)
+
 │   │   └── App.js             # Main React app entry point
+
 │   └── package.json           # Frontend dependencies
+
 │
+
 ├── venv/                      # Virtual environment (not included in the repository)
+
 │
+
 ├── requirements.txt           # Python dependencies for the backend
+
 └── README.md                  # Project documentation (this file)
+
 # Future Enhancements:
 Real-time Collaboration: Implement WebSocket functionality for real-time task updates.
 User Roles and Permissions: Introduce roles like admin, editor, and viewer for boards.
