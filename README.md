@@ -22,7 +22,7 @@ Django: For the backend, handling the API and database models.
 Django REST Framework: To create the API endpoints for boards and tasks.
 SQLite (default): Used as the database, can be replaced by PostgreSQL or any other preferred database.
 # How to Run the Project:
-# Backend Setup (Django):
+Backend Setup (Django):
 Clone the repository:
 
 bash
